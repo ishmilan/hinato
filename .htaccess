@@ -1,5 +1,5 @@
 <IfModule mod_rewrite.c>
     RewriteEngine on
-    RewriteCond $1 !^(index.php|assets|users|css|js|img|cases|robots.txt)
-    RewriteRule ^(.*)$ /index.php/$1 [L]
+    RewriteCond $1 !^(index.php|assets|css|js|img|robots.txt)
+    RewriteRule ^(.*)$ /hinato/index.php/$1 [L]
 </IfModule>
