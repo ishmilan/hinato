@@ -19,6 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <a href="/hinato/">
         <img src="/hinato/assets/img/logo.png" alt="" class="img-responsive">
       </a>
+      <input type="text"><buttom>BUSCAR</buttom>
       <div class="dropdown" id="user-menu" style="float:right;">
         <button class="dropdown-toggle glyphicon glyphicon-menu-hamburger header-menu" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"></button>
         <ul class="dropdown-menu user-dropdown" aria-labelledby="dropdownMenu1">
