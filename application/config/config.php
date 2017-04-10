@@ -158,7 +158,7 @@ $config['composer_autoload'] = FALSE;
 | DO NOT CHANGE THIS UNLESS YOU FULLY UNDERSTAND THE REPERCUSSIONS!!
 |
 */
-$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-@ÑñÇçáéíóúÁÉÍÓÚü';
+$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-@ÑñÇçáéíóúàèìòùÁÉÍÓÚÀÈÌÒÙüÜ#·\+\'\"\`';
 
 /*
 |--------------------------------------------------------------------------
@@ -400,7 +400,7 @@ $config['sess_regenerate_destroy'] = FALSE;
 |       'cookie_httponly') will also affect sessions.
 |
 */
-$config['cookie_prefix']	= '';
+$config['cookie_prefix']	= 'hinato';
 $config['cookie_domain']	= '';
 $config['cookie_path']		= '/';
 $config['cookie_secure']	= FALSE;
