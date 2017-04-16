@@ -6,7 +6,22 @@ header{height:4em;background:#3E464C;box-shadow:0 0 10px #24292E;margin:0px;}
 header>a>.img-responsive{display:inline-block;max-height:3em;margin:0.5em auto;margin-left:2em;}
 .header-menu{color:#F5F5F5;font-weight:bolder;font-size:2em;background-color:transparent;border:none;margin:0.5em;}
 .header-menu:hover{color:#0392CE;}
-
+.environment-radio{color:#F5F5F5;font-size:1.2em;padding:5px 10px;}
+.environment-radio p{font-size:1.3em;font-weight:bolder;}
+.environment-radio input[type=radio],.environment-radio input[type=checkbox]{display:none;}
+.environment-radio div{padding:0px 25px;}
+.environment-radio input[type=radio]+label:before,.environment-radio input[type=checkbox]+label:before{
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  color:#0392CE;
+  content: "\e157";}
+.environment-radio input[type=radio]:checked+label:before,.environment-radio input[type=checkbox]:checked+label:before{content: "\e067";}
 a{color:#0392CE;}
 a:hover{text-decoration:none;color:#D32F2F;}
 a:active,a:visited{color:#B90000;}
@@ -17,3 +32,6 @@ code{font-family: Consolas, Monaco, Courier New, Courier, monospace;font-size:12
 #container{margin:10px;border:1px solid #CDCDCD;box-shadow:0 0 8px #CDCDCD;}
 p{padding:0.2em 1em;}
 .header-menu+.dropdown-menu{left:auto !important;right:5px !important;float:right !important;border-radius:2px;opacity:0.8; background:#24292E !important;border:none;padding:0.5em 1em; color:#F5F5F5;}
+@media(max-width:300px){
+  body{width:300px;}
+}

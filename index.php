@@ -53,6 +53,8 @@
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
+
+ 	if(file_exists ("application/config/sys.env.php")) include "application/config/sys.env.php";
 	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
 
 /*
